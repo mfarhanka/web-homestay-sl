@@ -29,6 +29,39 @@ body {
   color: #fff !important;
 }
 
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.lang-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.lang-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.lang-link.is-active {
+  color: var(--text);
+  background: #fff;
+}
+
 .hero-section {
   position: relative;
   padding: 6rem 0 4rem;
@@ -290,6 +323,10 @@ body {
 @media (max-width: 991.98px) {
   .hero-section {
     padding-top: 4.5rem;
+  }
+
+  .lang-switcher {
+    margin: 0.4rem 0 0.2rem;
   }
 }
 
