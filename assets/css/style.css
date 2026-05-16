@@ -86,6 +86,28 @@ body {
   color: var(--text);
 }
 
+.hero-translation {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.bilingual-copy,
+.section-translation {
+  font-size: 0.98rem;
+}
+
+.bilingual-copy {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.section-translation {
+  margin-bottom: 0.75rem;
+  color: var(--accent-dark);
+  font-weight: 500;
+}
+
 .hero-points .point-card {
   padding: 1rem;
   border-radius: 1rem;
@@ -161,6 +183,87 @@ body {
     linear-gradient(135deg, rgba(255, 251, 235, 0.98), rgba(255, 255, 255, 0.94));
 }
 
+.info-card,
+.faq-item {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.info-card {
+  padding: 1.75rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.location-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.location-chip {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.95rem 1rem;
+  border-radius: 1rem;
+  background: var(--bg-soft);
+  color: var(--text);
+}
+
+.location-chip i {
+  color: var(--accent-dark);
+  font-size: 1.1rem;
+}
+
+.feature-list {
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.feature-list li + li {
+  margin-top: 0.85rem;
+}
+
+.faq-wrap {
+  max-width: 56rem;
+}
+
+.faq-item {
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.faq-item + .faq-item {
+  margin-top: 1rem;
+}
+
+.accordion-item {
+  border: 0;
+}
+
+.accordion-button {
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--text);
+  background: rgba(255, 247, 237, 0.96);
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  border-color: rgba(217, 119, 6, 0.35);
+  box-shadow: 0 0 0 0.2rem rgba(217, 119, 6, 0.18);
+}
+
+.accordion-body {
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.96);
+}
+
 .floating-whatsapp {
   position: fixed;
   right: 1.25rem;
@@ -196,6 +299,7 @@ body {
   }
 
   .contact-card,
+  .info-card,
   .stat-card,
   .hero-card-body,
   .gallery-card-body {
