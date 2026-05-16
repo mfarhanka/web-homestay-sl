@@ -68,7 +68,7 @@ body {
   color: #fff;
   background:
     linear-gradient(135deg, rgba(20, 24, 34, 0.94), rgba(64, 36, 13, 0.82)),
-    url("../images/rooms/room-photo-2.jpg") center/cover no-repeat;
+    url("../images/rooms/room-2.jpg") center/cover no-repeat;
   overflow: hidden;
 }
 
