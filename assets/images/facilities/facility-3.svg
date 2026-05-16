@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Playground</title>
+  <desc id="desc">Placeholder image for playground.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6d365"/>
+      <stop offset="100%" stop-color="#fda085"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="210" y="650" width="780" height="55" rx="20" fill="#166534" opacity="0.85"/>
+  <path d="M290 650 L420 320 L550 650" fill="none" stroke="#7c2d12" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="640" y="360" width="240" height="220" rx="28" fill="#fef3c7" opacity="0.92"/>
+  <circle cx="760" cy="320" r="56" fill="#ef4444" opacity="0.88"/>
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#92400e">Playground</text>
+</svg>
